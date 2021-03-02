@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<script src="client.js"></script>
+<table class="main-table" align="center">
+    <th colspan="2">
+        <p title="It's me!" class="main-table">
+            Бобринёв Кирилл, P3212, v. 2305
+        </p>
+    </th>
+    <tr>
+        <td>
+            <img src="images/graph.png" width="500" class="main-table">
+        </td>
+        <td>
+            <p class="main-table" id="enter-text">Введите значения</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div class="main-table">
+                <p class="variable">X=<input type="text" maxlength="8" placeholder="-5 ... 5" id="x"><br></p>
+                <p class="variable">Y=<select id="y" name="y-select">
+                    <option>-2</option>
+                    <option>-1.5</option>
+                    <option>-1</option>
+                    <option>-0.5</option>
+                    <option>0</option>
+                    <option>0.5</option>
+                    <option>1</option>
+                    <option>1.5</option>
+                    <option>2</option>
+                </select></p>
+                <p class="variable">R=<select id="r" name="r-select">
+                    <option>1</option>
+                    <option>1.5</option>
+                    <option>2</option>
+                    <option>2.5</option>
+                    <option>3</option>
+                </select></p>
+                <button id="button" type="submit">✔️</button>
+                <button id="cleaningbutton" type="submit">🧹️</button>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <table class="not-main-table">
+                <tr>
+                    <th class="variable">X</th>
+                    <th class="variable">Y</th>
+                    <th class="variable">R</th>
+                    <th>Result</th>
+                    <th>Time</th>
+                    <th>Script time</th>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

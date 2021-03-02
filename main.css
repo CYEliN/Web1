@@ -1,0 +1,81 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: 45%;
+    background-repeat: repeat;
+    font-family: monospace; /*наследование (шрифт)*/
+}
+
+[title = "It's me!"] { /*селектор атрибутов*/
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 250%;
+    text-decoration: underline overline;
+    color: #A35CFF;
+    background-color: #F3FFE1;
+}
+
+.main-table { /*селектор классов*/
+    text-align: center;
+}
+
+#enter-text {
+    text-align: left; /*каскадирование*/
+    font-size: 200%;
+    color: #A35CFF;
+    background-color: #F3FFE1;
+}
+
+th.variable:after { /*селектор псевдоэлементов*/
+    content: ":";
+}
+
+div input { /*селектор потомков*/
+    color: #FF47A0;
+    border-width: thick;
+    border-style: dotted;
+    border-color: #FFD7D5;
+    font-size: 100%;
+}
+
+div p {
+    font-size: 150%;
+}
+
+.not-main-table {
+    font-size: 300%;
+    border-style: dotted;
+    border-color: #E8D7FF;
+    text-align: center;
+    color: #A35CFF;
+    font-style: normal;
+}
+
+#button {
+    color: black;
+    text-align: center;
+    padding: 1% 2%;
+    margin: 2%;
+    background: white;
+    border: dotted #FFD7D5;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#cleaningbutton {
+    color: black;
+    text-align: center;
+    padding: 1% 2%;
+    margin: 2%;
+    background: white;
+    border: dotted #FFD7D5;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#select {
+    font-size: 100%;
+}
+
+#time {
+    color: #FF47A0;
+}
